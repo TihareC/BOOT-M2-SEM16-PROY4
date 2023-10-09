@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Cabecera from './Cabecera'
 import InformacionRestaurante from './InformacionRestaurante'
 import FormularioContacto from './FormularioContacto'
+import Ubicacion from './Ubicacion'
 
 export default function Example() {
   const [emailContacto] = useState('contacto@ramenmaipu.cl');
@@ -13,6 +14,7 @@ export default function Example() {
       <main>
         <InformacionRestaurante></InformacionRestaurante>
         <Ubicacion emailContacto={emailContacto} mapaGoogle={mapaGoogle}></Ubicacion>
+        <FormularioContacto></FormularioContacto>
       </main>
     </>
   )
