@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Cabecera from './Cabecera'
+import Footer from './Footer'
 import InformacionRestaurante from './InformacionRestaurante'
 import FormularioContacto from './FormularioContacto'
 import Ubicacion from './Ubicacion'
@@ -16,6 +17,7 @@ export default function Example() {
         <Ubicacion emailContacto={emailContacto} mapaGoogle={mapaGoogle}></Ubicacion>
         <FormularioContacto></FormularioContacto>
       </main>
+      <Footer></Footer>
     </>
   )
 }
