@@ -16,17 +16,17 @@ const Footer = () => {
                 </div>
                 <div className="enlaces">
                     <ul>
-                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="/">Sobre Nosotros</a></li>
                     </ul>
                 </div>
                 <div className="enlaces">
                     <ul>
-                        <li><a href="#">Nuestro Menú</a> </li>
+                        <li><a href="/">Nuestro Menú</a> </li>
                     </ul>
                 </div>
                 <div className="enlaces">
                     <ul>
-                        <li><a href="#">Reservaciones</a></li>
+                        <li><a href="/">Reservaciones</a></li>
                     </ul>
                 </div>
             </div>

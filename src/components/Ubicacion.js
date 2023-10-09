@@ -5,7 +5,8 @@ const Ubicacion = ({emailContacto, mapaGoogle}) => {
         <div className="ubicacion">
             <h2>Encuentranos en la Plaza de Maipú</h2>
             <div className="mapa">
-                <iframe src={mapaGoogle} 
+                <iframe src={mapaGoogle}
+                    title="mapa"
                     width="100%" 
                     height="300" 
                     allowFullScreen="" 

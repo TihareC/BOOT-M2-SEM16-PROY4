@@ -4,7 +4,7 @@ import Logo from '../assets/logo.jpg';
 const Cabecera = () => {
     return (
         <header className="header">
-            <a href="#" className="logo">
+            <a href="/" className="logo">
                 <img src={Logo} alt="logo" />
             </a>
             <input className="menu-lateral" type="checkbox" id="menu-lateral" />
@@ -13,9 +13,9 @@ const Cabecera = () => {
             </label>
             <nav className="areas-principales">
                 <ul>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="#">Nuestro Menú</a> </li>
-                    <li><a href="#">Reservaciones</a></li>
+                    <li><a href="/">Sobre Nosotros</a></li>
+                    <li><a href="/">Nuestro Menú</a> </li>
+                    <li><a href="/">Reservaciones</a></li>
                 </ul>
             </nav>
         </header>
